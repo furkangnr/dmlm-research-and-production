@@ -6,10 +6,10 @@ PIPELINE_NAME = 'logistic_regression.pkl'
 
 # ======= FEATURE GROUPS =============
 
-TARGET = "survived"
+TARGET = 'survived'
 
-CATEGORICAL_VARS = ["sex", "cabin", "embarked", "title"]
+CATEGORICAL_VARS = ['sex', 'cabin', 'embarked', 'title']
 
-NUMERICAL_VARS = ["age", "fare"]
+NUMERICAL_VARS = ['age', 'fare']
 
-CABIN = "cabin"
+CABIN = 'cabin'

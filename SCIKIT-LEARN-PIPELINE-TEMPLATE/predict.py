@@ -8,8 +8,7 @@ def make_prediction(input_data):
     
     # load pipeline and make predictions
     # rturn predictions
-    model = joblib.load(filename = config.PIPELINE_NAME)
-    results = model.predict(input_data)
+
     return results
    
 if __name__ == '__main__':
